@@ -1,0 +1,36 @@
+{
+  "name": "stratum-proxy",
+  "version": "0.0.1",
+  "description": "Configurable stratum-to-stratum proxy for switching cryptocurrency miners from one coin/pool to another transparently",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt mochaTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CaptEmulation/stratum-proxy.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "stratum"
+  ],
+  "author": "John Dean <john.holmes.dean@gmail.com>",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/CaptEmulation/stratum-proxy/issues"
+  },
+  "homepage": "https://github.com/CaptEmulation/stratum-proxy",
+  "dependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.10.2",
+    "q": "^1.0.1",
+    "eventemitter3": "^0.1.2",
+    "es5class": "^1.1.3"
+  },
+  "devDependencies": {
+    "rewire": "^2.0.0",
+    "chai": "^1.9.1",
+    "sinon": "^1.9.1"
+  }
+}
