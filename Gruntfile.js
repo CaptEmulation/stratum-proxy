@@ -3,19 +3,17 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     jshint: {
-      server: {
-        options: {
-          jshintrc: '.jshintrc-server',
-          ignores: [
-            'public/layouts/**/*.min.js',
-            'public/views/**/*.min.js'
-          ]
-        },
-        src: [
-          'lib/**/*.js',
-          'bin/**/*.js'
+      options: {
+        jshintrc: '.jshintrc',
+        ignores: [
+          'public/layouts/**/*.min.js',
+          'public/views/**/*.min.js'
         ]
       },
+      src: [
+        'lib/**/*.js',
+        'bin/**/*.js'
+      ]
     },
     // Configure a mochaTest task
     mochaTest: {
