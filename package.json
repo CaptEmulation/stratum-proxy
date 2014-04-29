@@ -1,6 +1,6 @@
 {
   "name": "stratum-proxy",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Configurable stratum-to-stratum proxy for switching cryptocurrency miners from one coin/pool to another transparently",
   "main": "index.js",
   "scripts": {
